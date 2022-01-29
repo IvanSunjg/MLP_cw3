@@ -222,7 +222,8 @@ def main_worker(gpu, ngpus_per_node, args):
     train_dataset = datasets.ImageFolder(
         traindir,
         transforms.Compose([
-            transforms.RandomResizedCrop(image_size),
+            #transforms.RandomResizedCrop(image_size),
+            transforms.RandomResizedCrop(224),
             transforms.RandomHorizontalFlip(),
             transforms.ToTensor(),
             normalize,
@@ -238,7 +239,11 @@ def main_worker(gpu, ngpus_per_node, args):
         num_workers=args.workers, pin_memory=True, sampler=train_sampler)
 
     val_transforms = transforms.Compose([
-        transforms.Resize(image_size, interpolation=PIL.Image.BICUBIC),
+        ########################################################################
+        #transforms.RandomResizedCrop(224),
+        ########################################################################
+        #transforms.Resize(image_size, interpolation=PIL.Image.BICUBIC),
+        transforms.Resize((224,224)),
         transforms.CenterCrop(image_size),
         transforms.ToTensor(),
         normalize,
@@ -296,6 +301,7 @@ def train(train_loader, model, criterion, optimizer, epoch, args):
 
     end = time.time()
     for i, (images, target) in enumerate(train_loader):
+        #print(target)
         # measure data loading time
         data_time.update(time.time() - end)
 
@@ -309,9 +315,10 @@ def train(train_loader, model, criterion, optimizer, epoch, args):
 
         # measure accuracy and record loss
         acc1, acc5 = accuracy(output, target, topk=(1, 5))
+        #acc1 = accuracy(output, target)
         losses.update(loss.item(), images.size(0))
         top1.update(acc1[0], images.size(0))
-        top5.update(acc5[0], images.size(0))
+        #top5.update(acc5[0], images.size(0))
 
         # compute gradient and do SGD step
         optimizer.zero_grad()
@@ -395,7 +402,9 @@ class AverageMeter(object):
 
     def __str__(self):
         fmtstr = '{name} {val' + self.fmt + '} ({avg' + self.fmt + '})'
+        #print("Specific Info: ",self.__dict__)
         return fmtstr.format(**self.__dict__)
+        #return str("Specific Info: "+str(self.__dict__))
 
 
 class ProgressMeter(object):
@@ -424,12 +433,17 @@ def adjust_learning_rate(optimizer, epoch, args):
 
 def accuracy(output, target, topk=(1,)):
     """Computes the accuracy over the k top predictions for the specified values of k"""
+    #print(output.shape)
+    #print(target.shape)
+    #target = torch.randn(1000)
+    #print(target)
     with torch.no_grad():
         maxk = max(topk)
         batch_size = target.size(0)
 
         _, pred = output.topk(maxk, 1, True, True)
         pred = pred.t()
+        print(pred)
         correct = pred.eq(target.view(1, -1).expand_as(pred))
 
         res = []
