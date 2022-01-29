@@ -10,7 +10,7 @@ def mkfile(file):
         os.makedirs(file)
 
 
-file = 'data'
+file = 'image'
 cd_class = ['CARS','CATS','DOGS','FACES','daisy','dandelion','roses','sunflowers','tulips']
 #cd_class = ['daisy','dandelion','roses','sunflowers','tulips']
 mkfile('data/train')
