@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 def Red_Green(filter,image):
     batch_size = image.shape[0]
-    r_filter = filter + torch.zeros((1,1,filter.shape[0],filter.shape[1])).to(device)
+    r_filter = filter.view((1,1,filter.shape[0],filter.shape[1]))
     g_filter = -r_filter
     print(r_filter.shape)
     print(image[:,0].view(-1,1,image.shape[2],image.shape[3]).shape)
