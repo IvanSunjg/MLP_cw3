@@ -70,7 +70,7 @@ class Kernel():
                 t = torch.cat((t,torch.from_numpy(kernel)))
                 t = torch.cat((t,torch.from_numpy(-kernel)))
 
-        return t
+        return t.float()
     
 
     """Setting Gabor Half Bar kernel"""
