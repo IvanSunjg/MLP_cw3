@@ -38,7 +38,7 @@ source /home/${STUDENT_ID}/miniconda3/bin/activate mlp
 echo "Original AlexNet"
 python original_alexnet.py > alexnet.txt
 echo "Original EfficientNet"
-pthon original_efficientnet.py > efficientnet.txt
+python original_efficientnet.py > efficientnet.txt
 
 # super model
 echo "Super AlexNet with mid_units 10"
