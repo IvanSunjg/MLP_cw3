@@ -209,8 +209,8 @@ if __name__ == '__main__':
     validate_dataset = datasets.ImageFolder(root="data/val", transform=data_transform["val"])
     validate_loader = torch.utils.data.DataLoader(validate_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
     
-    #test_dataset = datasets.ImageFolder(root="data/test", transform=data_transform["test"])
-    #test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
+    test_dataset = datasets.ImageFolder(root="data/test", transform=data_transform["test"])
+    test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
 
     cd_list = train_dataset.class_to_idx
     cla_dict = dict((val, key) for key, val in cd_list.items())
@@ -284,4 +284,4 @@ if __name__ == '__main__':
     # plot the training process
     plot_train(epoch, train_loss_list, test_loss_list, train_acc_list, test_acc_list)
     # test results
-    #print('Test accuracy: ',test_model(net,test_loader))
+    print('Test accuracy: ',test_model(net,test_loader))

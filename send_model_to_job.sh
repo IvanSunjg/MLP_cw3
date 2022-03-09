@@ -34,6 +34,16 @@ export DATASET_DIR=${TMP}/datasets/
 # Activate the relevant virtual environment:
 source /home/${STUDENT_ID}/miniconda3/bin/activate mlp
 
-python alexnet.py
+# base model
+echo "Original AlexNet"
+python alexnet.py > alexnet.txt
+echo "Original EfficientNet"
+pthon efficientnet.py > efficientnet.txt
 
-pthon efficientnet.py 
+# super model
+for i in 10, 50, 100, 150, 200 do
+    echo "Super AlexNet with mid_units "$i
+    python super_alexnet.py $i > super_alexnet_$i.txt
+done
+echo "Super EfficientNet"
+python super_efficientnet.py > super_efficientnet.txt

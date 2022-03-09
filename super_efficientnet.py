@@ -250,8 +250,8 @@ def main(epoch=100,lr=0.0002):
     validate_dataset = datasets.ImageFolder(root="data/val", transform=data_transform["val"])
     validate_loader = torch.utils.data.DataLoader(validate_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
     
-    #test_dataset = datasets.ImageFolder(root="data/test", transform=data_transform["test"])
-    #test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
+    test_dataset = datasets.ImageFolder(root="data/test", transform=data_transform["test"])
+    test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
 
     cd_list = train_dataset.class_to_idx
     cla_dict = dict((val, key) for key, val in cd_list.items())
@@ -325,13 +325,12 @@ def main(epoch=100,lr=0.0002):
 
 if __name__ == '__main__':
     import sys
-    mid_units = int(sys.argv[1])
     try:
-        epoch = int(sys.argv[2])
+        epoch = int(sys.argv[1])
     except:
         epoch = 100
     try:
-        lr = float(sys.argv[3])
+        lr = float(sys.argv[2])
     except:
         lr = 0.0002
     # strat training

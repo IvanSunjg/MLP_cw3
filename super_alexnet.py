@@ -99,7 +99,7 @@ class Super_AlexNet(nn.Module):
                 nn.init.normal_(m.weight, 0, 0.01)
                 nn.init.constant_(m.bias, 0)
 
-def plot_train(epoch,train_loss_list,test_loss_list,train_acc_list,test_acc_list):
+def plot_train(epoch,train_loss_list,test_loss_list,train_acc_list,test_acc_list,mid_units):
     # visualizing training process
     plt.figure()
     plt.title("Train and Test Loss")
@@ -108,7 +108,7 @@ def plot_train(epoch,train_loss_list,test_loss_list,train_acc_list,test_acc_list
     plt.plot(range(1,epoch+1),train_loss_list,color="b",linestyle="-",label="train_loss")
     plt.plot(range(1,epoch+1),test_loss_list,color="r",linestyle="--",label="test_loss")
     plt.legend()
-    plt.savefig("model_plots/"+LABEL+"_Train and Test Loss.png")
+    plt.savefig("model_plots/"+LABEL+"_"+str(mid_units)+"_Train and Test Loss.png")
 
     plt.figure()
     plt.title("Train and Test Accuracy")
@@ -117,7 +117,7 @@ def plot_train(epoch,train_loss_list,test_loss_list,train_acc_list,test_acc_list
     plt.plot(range(1,epoch+1),train_acc_list,color="b",linestyle="-",label="train_accuracy")
     plt.plot(range(1,epoch+1),test_acc_list,color="r",linestyle="--",label="test_accuracy")
     plt.legend()
-    plt.savefig("model_plots/"+LABEL+"_Train and Test Accuracy.png")
+    plt.savefig("model_plots/"+LABEL+"_"+str(mid_units)+"_Train and Test Accuracy.png")
 
 def test_model(net,test_loader):
     acc = 0.0
@@ -157,8 +157,8 @@ def main(mid_units,epoch=100,lr=0.0002):
     validate_dataset = datasets.ImageFolder(root="data/val", transform=data_transform["val"])
     validate_loader = torch.utils.data.DataLoader(validate_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
     
-    #test_dataset = datasets.ImageFolder(root="data/test", transform=data_transform["test"])
-    #test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
+    test_dataset = datasets.ImageFolder(root="data/test", transform=data_transform["test"])
+    test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
     
     cd_list = train_dataset.class_to_idx
     cla_dict = dict((val, key) for key, val in cd_list.items())
@@ -174,7 +174,7 @@ def main(mid_units,epoch=100,lr=0.0002):
     net.to(device)
     loss_function = nn.CrossEntropyLoss()
     optimizer = optim.Adam(net.parameters(), lr=lr)
-    save_path = './Super_AlexNet.pth'
+    save_path = './Super_AlexNet_'+str(mid_units)+'.pth'
     best_acc = 0.0
 
     train_loss_list = []
@@ -246,6 +246,6 @@ if __name__ == '__main__':
     # strat training
     net, train_loss_list, train_acc_list, test_loss_list, test_acc_list, test_loader = main(mid_units,epoch=epoch,lr=lr)
     # plot the training process
-    plot_train(epoch, train_loss_list, test_loss_list, train_acc_list, test_acc_list)
+    plot_train(epoch, train_loss_list, test_loss_list, train_acc_list, test_acc_list, mid_units)
     # test results
-    print('Test accuracy: ',test_model(net,test_loader))
+    print('Test accuracy for mid_units = '+str(mid_units)+': ',test_model(net,test_loader))
