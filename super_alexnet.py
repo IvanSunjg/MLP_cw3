@@ -120,6 +120,7 @@ def plot_train(epoch,train_loss_list,test_loss_list,train_acc_list,test_acc_list
     plt.savefig("model_plots/"+LABEL+"_"+str(mid_units)+"_Train and Test Accuracy.png")
 
 def test_model(net,test_loader):
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     acc = 0.0
     test_acc = 0.0
     net.eval()  
