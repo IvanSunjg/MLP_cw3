@@ -209,6 +209,7 @@ def plot_train(epoch,train_loss_list,test_loss_list,train_acc_list,test_acc_list
     plt.savefig("model_plots/"+LABEL+"_Train and Test Accuracy.png")
 
 def test_model(net,test_loader):
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     acc = 0.0
     test_acc = 0.0
     net.eval()  
@@ -261,7 +262,7 @@ def main(epoch=100,lr=0.0002):
         json_file.write(json_str)
 
     kernels = Kernel()().to(device)
-    net = EfficientNet(filters=kernels,version=version,num_classes=len(cla_dict))
+    net = Super_EfficientNet(filters=kernels,version=version,num_classes=len(cla_dict))
     net.to(device)
     loss_function = nn.CrossEntropyLoss()
     optimizer = optim.Adam(net.parameters(), lr=lr)
