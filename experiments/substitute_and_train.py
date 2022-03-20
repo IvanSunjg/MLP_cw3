@@ -1,12 +1,14 @@
 from generate_filters11 import Kernel
 import numpy as np
 import matplotlib.pyplot as plt
-from PIL import Image
 import cv2
 import torch
 import torch.nn as nn
-import torchvision
+import torch.optim as optim
 from torchvision import transforms, datasets, utils
+import os
+import json
+import time
 
 LABEL = "Pre_Filter_AlexNet"
 
@@ -65,7 +67,7 @@ def plot_train(epoch,train_loss_list,test_loss_list,train_acc_list,test_acc_list
     plt.plot(range(1,epoch+1),train_loss_list,color="b",linestyle="-",label="train_loss")
     plt.plot(range(1,epoch+1),test_loss_list,color="r",linestyle="--",label="test_loss")
     plt.legend()
-    plt.savefig("model_plots/"+LABEL+"_Train and Test Loss.png")
+    plt.savefig("../model_plots/"+LABEL+"_Train and Test Loss.png")
 
     plt.figure()
     plt.title("Train and Test Accuracy")
@@ -74,7 +76,7 @@ def plot_train(epoch,train_loss_list,test_loss_list,train_acc_list,test_acc_list
     plt.plot(range(1,epoch+1),train_acc_list,color="b",linestyle="-",label="train_accuracy")
     plt.plot(range(1,epoch+1),test_acc_list,color="r",linestyle="--",label="test_accuracy")
     plt.legend()
-    plt.savefig("model_plots/"+LABEL+"_Train and Test Accuracy.png")
+    plt.savefig("../model_plots/"+LABEL+"_Train and Test Accuracy.png")
 
 def test_model(net,test_loader):
     acc = 0.0
@@ -121,13 +123,13 @@ if __name__ == '__main__':
                     }
 
     batch_size = 8
-    train_dataset = datasets.ImageFolder(root="data/train", transform=data_transform["train"])
+    train_dataset = datasets.ImageFolder(root="../data/train", transform=data_transform["train"])
     train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
     
-    validate_dataset = datasets.ImageFolder(root="data/val", transform=data_transform["val"])
+    validate_dataset = datasets.ImageFolder(root="../data/val", transform=data_transform["val"])
     validate_loader = torch.utils.data.DataLoader(validate_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
     
-    test_dataset = datasets.ImageFolder(root="data/test", transform=data_transform["test"])
+    test_dataset = datasets.ImageFolder(root="../data/test", transform=data_transform["test"])
     test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
     
     cd_list = train_dataset.class_to_idx
