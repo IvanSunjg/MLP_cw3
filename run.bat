@@ -9,8 +9,8 @@
 : super model
 : echo "Super AlexNet with mid_units 10"
 : python super_alexnet.py 10 > super_alexnet_10.txt
-: echo "Super AlexNet with mid_units 50"
-: python super_alexnet.py 50 > super_alexnet_50.txt
+echo "Super AlexNet with mid_units 50"
+python super_alexnet.py 50 300 > super_alexnet_50.txt
 : echo "Super AlexNet with mid_units 100"
 : python super_alexnet.py 100 > super_alexnet_100.txt
 : echo "Super AlexNet with mid_units 150"
@@ -19,4 +19,4 @@
 : python super_alexnet.py 200 > super_alexnet_200.txt
 
 echo "Super EfficientNet"
-python super_efficientnet.py > super_efficientnet.txt
+python super_efficientnet.py 300 > super_efficientnet.txt

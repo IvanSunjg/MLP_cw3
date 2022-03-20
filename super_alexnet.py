@@ -16,7 +16,9 @@ class Super_AlexNet(nn.Module):
     def __init__(self, filters, num_classes=1000, mid_units=100, init_weights=False):   
         super(Super_AlexNet, self).__init__()
         self.filters = filters
-        self.features = nn.Sequential(  
+        self.features = nn.Sequential(
+            nn.ReLU(inplace=True),
+            nn.MaxPool2d(kernel_size=3, stride=2),  
             nn.Conv2d(filters.shape[0]*3, mid_units, kernel_size=11, stride=4, padding=2),  # input[3, 224, 224]  output[48, 55, 55]
             nn.ReLU(inplace=True), #inplace
             nn.MaxPool2d(kernel_size=3, stride=2),                  # output[48, 27, 27]
@@ -33,7 +35,7 @@ class Super_AlexNet(nn.Module):
         )
         self.classifier = nn.Sequential(
             nn.Dropout(p=0.5),
-            nn.Linear(128 * 4 * 4, 2048),
+            nn.Linear(128, 2048),
             nn.ReLU(inplace=True),
             nn.Dropout(p=0.5),
             nn.Linear(2048, 2048),
@@ -173,6 +175,7 @@ def main(mid_units,epoch=100,lr=0.0002):
     kernels = Kernel()().to(device) 
     net = Super_AlexNet(kernels, num_classes=len(cla_dict), mid_units=mid_units, init_weights=False)
     net.to(device)
+    print(net)
     loss_function = nn.CrossEntropyLoss()
     optimizer = optim.Adam(net.parameters(), lr=lr)
     save_path = './Super_AlexNet_'+str(mid_units)+'.pth'

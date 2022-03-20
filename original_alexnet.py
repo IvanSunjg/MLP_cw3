@@ -141,7 +141,7 @@ if __name__ == '__main__':
     optimizer = optim.Adam(net.parameters(), lr=lr)
     save_path = './AlexNet.pth'
     best_acc = 0.0
-    epoch = 100
+    epoch = 300
 
     train_loss_list = []
     train_acc_list = []

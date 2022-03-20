@@ -36,6 +36,15 @@ phi_values = {
     "b7": (6,600,0.5),
 }
 
+class Activation(nn.Module):
+    def __init__(self):
+        super(Activation, self).__init__()
+        self.silu = nn.SiLU()
+    
+    def forward(self, x):
+        x = self.silu(x)
+        return x
+
 class CNNBlock(nn.Module):
     def __init__(self,in_channels, out_channels, kernel_size, stride, padding, groups=1):
         super(CNNBlock, self).__init__()
@@ -123,7 +132,7 @@ class Super_EfficientNet(nn.Module):
 
     def create_features(self, width_factor, depth_factor, last_channels):
         channels = int(32 * width_factor)
-        features = [CNNBlock(self.filters.shape[0]*3, channels, 3, stride = 2, padding = 1)]
+        features = [Activation(), CNNBlock(self.filters.shape[0]*3, channels, 3, stride = 2, padding = 1)]
         in_channels = channels
 
         for expand_ratio, channels, repeats, stride, kernel_size in base_model:
@@ -264,6 +273,7 @@ def main(epoch=100,lr=0.0002):
     kernels = Kernel()().to(device)
     net = Super_EfficientNet(filters=kernels,version=version,num_classes=len(cla_dict))
     net.to(device)
+    print(net)
     loss_function = nn.CrossEntropyLoss()
     optimizer = optim.Adam(net.parameters(), lr=lr)
     save_path = './Super_EfficientNet.pth'
