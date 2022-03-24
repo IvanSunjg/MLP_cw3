@@ -1,0 +1,5 @@
+from model_train.original_alexnet import original_alexnet_main
+from model_train.original_efficientnet import original_efficientnet_main
+from model_train.pretrained_alexnet import pretrained_alexnet_main
+from model_train.pretrained_sub_alexnet import pretrained_sub_alexnet_main
+from model_train.sub_alexnet import sub_alexnet_main
