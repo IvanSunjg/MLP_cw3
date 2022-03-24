@@ -3,3 +3,6 @@ data
 grey_data
 color_data
 params
+build
+dist
+model_train.egg-info

@@ -221,7 +221,7 @@ def original_efficientnet_main():
     loss_function = nn.CrossEntropyLoss()
     lr = 0.0002
     optimizer = optim.Adam(net.parameters(), lr=lr)
-    save_path = '.params/EfficientNet.pth'
+    save_path = './params/EfficientNet.pth'
     best_acc = 0.0
     epoch = 300
 

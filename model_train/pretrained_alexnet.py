@@ -80,7 +80,7 @@ def pretrained_alexnet_main():
     loss_function = nn.CrossEntropyLoss()
     lr = 0.0002
     optimizer = optim.Adam(net.parameters(), lr=lr)
-    save_path = '.params/pre_trained_AlexNet.pth'
+    save_path = './params/pre_trained_AlexNet.pth'
     best_acc = 0.0
     epoch = 300
 

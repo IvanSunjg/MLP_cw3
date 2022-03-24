@@ -1,4 +1,4 @@
-from generate_filter.generate_filter32 import Kernel
+from .generate_filter32 import Kernel
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -21,7 +21,7 @@ def plot_train(epoch,train_loss_list,test_loss_list,train_acc_list,test_acc_list
     plt.plot(range(1,epoch+1),train_loss_list,color="b",linestyle="-",label="train_loss")
     plt.plot(range(1,epoch+1),test_loss_list,color="r",linestyle="--",label="test_loss")
     plt.legend()
-    plt.savefig("../model_plots/"+LABEL+"_Train and Test Loss.png")
+    plt.savefig("model_plots/"+LABEL+"_Train and Test Loss.png")
 
     plt.figure()
     plt.title("Train and Test Accuracy")
@@ -30,7 +30,7 @@ def plot_train(epoch,train_loss_list,test_loss_list,train_acc_list,test_acc_list
     plt.plot(range(1,epoch+1),train_acc_list,color="b",linestyle="-",label="train_accuracy")
     plt.plot(range(1,epoch+1),test_acc_list,color="r",linestyle="--",label="test_accuracy")
     plt.legend()
-    plt.savefig("../model_plots/"+LABEL+"_Train and Test Accuracy.png")
+    plt.savefig("model_plots/"+LABEL+"_Train and Test Accuracy.png")
 
 def test_model(net,test_loader):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -101,11 +101,11 @@ def pretrained_sub_alexnet_main():
     weights0 = nn.Parameter(weights0)
     net.features[0].weight = weights0
     net.to(device)
-    torch.save(net.state_dict(), ".params/pretrained_sub_init_AlexNet.pth")
+    torch.save(net.state_dict(), "./params/pretrained_sub_init_AlexNet.pth")
     loss_function = nn.CrossEntropyLoss()
     lr = 0.0002
     optimizer = optim.Adam(net.parameters(), lr=lr)
-    save_path = '.params/pretrained_sub_AlexNet.pth'
+    save_path = './params/pretrained_sub_AlexNet.pth'
     best_acc = 0.0
     epoch = 300
 
