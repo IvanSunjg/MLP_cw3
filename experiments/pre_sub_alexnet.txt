@@ -1,0 +1,1803 @@
+cuda:0
+
+------------------------------------------------------
+epoch 1/300
+Time taken for Training:  64.9619033
+Train_Loss: 4.6850 Train_Acc: 0.0167
+Test_Loss: 4.5393 Test_Acc: 0.0189
+
+------------------------------------------------------
+epoch 2/300
+Time taken for Training:  58.9795788
+Train_Loss: 4.4291 Train_Acc: 0.0287
+Test_Loss: 4.4025 Test_Acc: 0.0182
+
+------------------------------------------------------
+epoch 3/300
+Time taken for Training:  58.9431323
+Train_Loss: 4.2563 Train_Acc: 0.0355
+Test_Loss: 4.1058 Test_Acc: 0.0462
+
+------------------------------------------------------
+epoch 4/300
+Time taken for Training:  64.01937230000001
+Train_Loss: 4.1344 Train_Acc: 0.0531
+Test_Loss: 4.0164 Test_Acc: 0.0599
+
+------------------------------------------------------
+epoch 5/300
+Time taken for Training:  59.215988100000004
+Train_Loss: 4.0321 Train_Acc: 0.0765
+Test_Loss: 4.0164 Test_Acc: 0.0768
+
+------------------------------------------------------
+epoch 6/300
+Time taken for Training:  57.9555082
+Train_Loss: 3.9462 Train_Acc: 0.0858
+Test_Loss: 3.9658 Test_Acc: 0.1048
+
+------------------------------------------------------
+epoch 7/300
+Time taken for Training:  58.76159749999994
+Train_Loss: 3.8255 Train_Acc: 0.1031
+Test_Loss: 3.7658 Test_Acc: 0.1087
+
+------------------------------------------------------
+epoch 8/300
+Time taken for Training:  59.01103679999994
+Train_Loss: 3.7391 Train_Acc: 0.1188
+Test_Loss: 3.6618 Test_Acc: 0.1439
+
+------------------------------------------------------
+epoch 9/300
+Time taken for Training:  58.76332500000001
+Train_Loss: 3.6404 Train_Acc: 0.1330
+Test_Loss: 3.6904 Test_Acc: 0.1380
+
+------------------------------------------------------
+epoch 10/300
+Time taken for Training:  58.73013920000005
+Train_Loss: 3.5554 Train_Acc: 0.1543
+Test_Loss: 3.5608 Test_Acc: 0.1582
+
+------------------------------------------------------
+epoch 11/300
+Time taken for Training:  58.10062879999998
+Train_Loss: 3.4683 Train_Acc: 0.1639
+Test_Loss: 3.4911 Test_Acc: 0.1810
+
+------------------------------------------------------
+epoch 12/300
+Time taken for Training:  58.733883000000105
+Train_Loss: 3.3907 Train_Acc: 0.1796
+Test_Loss: 3.4335 Test_Acc: 0.1725
+
+------------------------------------------------------
+epoch 13/300
+Time taken for Training:  55.89010929999995
+Train_Loss: 3.2928 Train_Acc: 0.2003
+Test_Loss: 3.4449 Test_Acc: 0.2005
+
+------------------------------------------------------
+epoch 14/300
+Time taken for Training:  56.537784499999816
+Train_Loss: 3.2119 Train_Acc: 0.2182
+Test_Loss: 3.3468 Test_Acc: 0.2057
+
+------------------------------------------------------
+epoch 15/300
+Time taken for Training:  56.66479860000004
+Train_Loss: 3.1319 Train_Acc: 0.2204
+Test_Loss: 3.3413 Test_Acc: 0.2051
+
+------------------------------------------------------
+epoch 16/300
+Time taken for Training:  56.239397300000064
+Train_Loss: 3.0187 Train_Acc: 0.2469
+Test_Loss: 3.2975 Test_Acc: 0.2194
+
+------------------------------------------------------
+epoch 17/300
+Time taken for Training:  57.33931929999994
+Train_Loss: 2.9651 Train_Acc: 0.2627
+Test_Loss: 3.2635 Test_Acc: 0.2272
+
+------------------------------------------------------
+epoch 18/300
+Time taken for Training:  57.02568300000007
+Train_Loss: 2.9233 Train_Acc: 0.2664
+Test_Loss: 3.2759 Test_Acc: 0.2272
+
+------------------------------------------------------
+epoch 19/300
+Time taken for Training:  56.33130300000016
+Train_Loss: 2.8139 Train_Acc: 0.2991
+Test_Loss: 3.2687 Test_Acc: 0.2214
+
+------------------------------------------------------
+epoch 20/300
+Time taken for Training:  56.38345840000011
+Train_Loss: 2.7573 Train_Acc: 0.3056
+Test_Loss: 3.2004 Test_Acc: 0.2467
+
+------------------------------------------------------
+epoch 21/300
+Time taken for Training:  56.430248899999924
+Train_Loss: 2.7654 Train_Acc: 0.2929
+Test_Loss: 3.1775 Test_Acc: 0.2624
+
+------------------------------------------------------
+epoch 22/300
+Time taken for Training:  56.82795620000002
+Train_Loss: 2.6634 Train_Acc: 0.3210
+Test_Loss: 3.3097 Test_Acc: 0.2435
+
+------------------------------------------------------
+epoch 23/300
+Time taken for Training:  56.21280690000003
+Train_Loss: 2.5919 Train_Acc: 0.3423
+Test_Loss: 3.1095 Test_Acc: 0.2715
+
+------------------------------------------------------
+epoch 24/300
+Time taken for Training:  56.71554739999988
+Train_Loss: 2.5446 Train_Acc: 0.3429
+Test_Loss: 3.0383 Test_Acc: 0.2884
+
+------------------------------------------------------
+epoch 25/300
+Time taken for Training:  56.96167719999994
+Train_Loss: 2.4949 Train_Acc: 0.3623
+Test_Loss: 3.1372 Test_Acc: 0.2767
+
+------------------------------------------------------
+epoch 26/300
+Time taken for Training:  57.40435249999996
+Train_Loss: 2.4589 Train_Acc: 0.3654
+Test_Loss: 3.0662 Test_Acc: 0.2891
+
+------------------------------------------------------
+epoch 27/300
+Time taken for Training:  56.66550970000003
+Train_Loss: 2.4243 Train_Acc: 0.3877
+Test_Loss: 3.1127 Test_Acc: 0.2956
+
+------------------------------------------------------
+epoch 28/300
+Time taken for Training:  56.69595269999991
+Train_Loss: 2.3092 Train_Acc: 0.3991
+Test_Loss: 3.1102 Test_Acc: 0.2910
+
+------------------------------------------------------
+epoch 29/300
+Time taken for Training:  56.36878909999996
+Train_Loss: 2.3223 Train_Acc: 0.4015
+Test_Loss: 3.0669 Test_Acc: 0.2930
+
+------------------------------------------------------
+epoch 30/300
+Time taken for Training:  56.45617859999993
+Train_Loss: 2.2339 Train_Acc: 0.4148
+Test_Loss: 3.0982 Test_Acc: 0.3112
+
+------------------------------------------------------
+epoch 31/300
+Time taken for Training:  56.40194150000025
+Train_Loss: 2.1757 Train_Acc: 0.4299
+Test_Loss: 3.1639 Test_Acc: 0.3079
+
+------------------------------------------------------
+epoch 32/300
+Time taken for Training:  55.596913600000335
+Train_Loss: 2.1433 Train_Acc: 0.4426
+Test_Loss: 3.0282 Test_Acc: 0.3464
+
+------------------------------------------------------
+epoch 33/300
+Time taken for Training:  57.13733689999981
+Train_Loss: 2.0894 Train_Acc: 0.4549
+Test_Loss: 3.1754 Test_Acc: 0.3105
+
+------------------------------------------------------
+epoch 34/300
+Time taken for Training:  56.35266339999998
+Train_Loss: 2.0931 Train_Acc: 0.4503
+Test_Loss: 3.0948 Test_Acc: 0.3294
+
+------------------------------------------------------
+epoch 35/300
+Time taken for Training:  55.91761799999995
+Train_Loss: 2.0480 Train_Acc: 0.4753
+Test_Loss: 3.0106 Test_Acc: 0.3542
+
+------------------------------------------------------
+epoch 36/300
+Time taken for Training:  56.279367399999956
+Train_Loss: 2.0150 Train_Acc: 0.4753
+Test_Loss: 3.0680 Test_Acc: 0.3236
+
+------------------------------------------------------
+epoch 37/300
+Time taken for Training:  56.36664490000021
+Train_Loss: 1.9955 Train_Acc: 0.4889
+Test_Loss: 3.4003 Test_Acc: 0.3073
+
+------------------------------------------------------
+epoch 38/300
+Time taken for Training:  56.374056499999824
+Train_Loss: 1.8635 Train_Acc: 0.5040
+Test_Loss: 3.2858 Test_Acc: 0.3262
+
+------------------------------------------------------
+epoch 39/300
+Time taken for Training:  56.06860910000023
+Train_Loss: 1.8688 Train_Acc: 0.5105
+Test_Loss: 3.1758 Test_Acc: 0.3288
+
+------------------------------------------------------
+epoch 40/300
+Time taken for Training:  56.49771890000011
+Train_Loss: 1.8837 Train_Acc: 0.5019
+Test_Loss: 3.0441 Test_Acc: 0.3503
+
+------------------------------------------------------
+epoch 41/300
+Time taken for Training:  56.73930590000009
+Train_Loss: 1.7713 Train_Acc: 0.5315
+Test_Loss: 3.0689 Test_Acc: 0.3548
+
+------------------------------------------------------
+epoch 42/300
+Time taken for Training:  57.13666280000007
+Train_Loss: 1.8231 Train_Acc: 0.5210
+Test_Loss: 3.1977 Test_Acc: 0.3314
+
+------------------------------------------------------
+epoch 43/300
+Time taken for Training:  56.16524219999974
+Train_Loss: 1.7845 Train_Acc: 0.5321
+Test_Loss: 3.2063 Test_Acc: 0.3438
+
+------------------------------------------------------
+epoch 44/300
+Time taken for Training:  57.323907599999984
+Train_Loss: 1.7448 Train_Acc: 0.5423
+Test_Loss: 3.2827 Test_Acc: 0.3444
+
+------------------------------------------------------
+epoch 45/300
+Time taken for Training:  56.318164400000114
+Train_Loss: 1.7238 Train_Acc: 0.5512
+Test_Loss: 3.3757 Test_Acc: 0.3496
+
+------------------------------------------------------
+epoch 46/300
+Time taken for Training:  56.20576889999984
+Train_Loss: 1.7211 Train_Acc: 0.5472
+Test_Loss: 3.1188 Test_Acc: 0.3659
+
+------------------------------------------------------
+epoch 47/300
+Time taken for Training:  56.5938414000002
+Train_Loss: 1.6596 Train_Acc: 0.5506
+Test_Loss: 3.1764 Test_Acc: 0.3496
+
+------------------------------------------------------
+epoch 48/300
+Time taken for Training:  56.17700710000008
+Train_Loss: 1.7006 Train_Acc: 0.5497
+Test_Loss: 3.0959 Test_Acc: 0.3542
+
+------------------------------------------------------
+epoch 49/300
+Time taken for Training:  56.43207440000015
+Train_Loss: 1.5716 Train_Acc: 0.5846
+Test_Loss: 3.2195 Test_Acc: 0.3600
+
+------------------------------------------------------
+epoch 50/300
+Time taken for Training:  56.35684880000008
+Train_Loss: 1.5571 Train_Acc: 0.5759
+Test_Loss: 3.3426 Test_Acc: 0.3561
+
+------------------------------------------------------
+epoch 51/300
+Time taken for Training:  56.79053040000008
+Train_Loss: 1.5958 Train_Acc: 0.5843
+Test_Loss: 3.2732 Test_Acc: 0.3587
+
+------------------------------------------------------
+epoch 52/300
+Time taken for Training:  56.10688150000033
+Train_Loss: 1.5965 Train_Acc: 0.5864
+Test_Loss: 3.1935 Test_Acc: 0.3594
+
+------------------------------------------------------
+epoch 53/300
+Time taken for Training:  56.00227529999984
+Train_Loss: 1.5105 Train_Acc: 0.6043
+Test_Loss: 3.2195 Test_Acc: 0.3516
+
+------------------------------------------------------
+epoch 54/300
+Time taken for Training:  55.77229110000053
+Train_Loss: 1.4978 Train_Acc: 0.6065
+Test_Loss: 3.3025 Test_Acc: 0.3568
+
+------------------------------------------------------
+epoch 55/300
+Time taken for Training:  56.04072040000028
+Train_Loss: 1.5575 Train_Acc: 0.5920
+Test_Loss: 3.2957 Test_Acc: 0.3542
+
+------------------------------------------------------
+epoch 56/300
+Time taken for Training:  56.691230299999916
+Train_Loss: 1.5062 Train_Acc: 0.6074
+Test_Loss: 3.2560 Test_Acc: 0.3757
+
+------------------------------------------------------
+epoch 57/300
+Time taken for Training:  56.85218239999995
+Train_Loss: 1.4544 Train_Acc: 0.6111
+Test_Loss: 3.2660 Test_Acc: 0.3626
+
+------------------------------------------------------
+epoch 58/300
+Time taken for Training:  55.87132029999975
+Train_Loss: 1.4985 Train_Acc: 0.6043
+Test_Loss: 3.2760 Test_Acc: 0.3613
+
+------------------------------------------------------
+epoch 59/300
+Time taken for Training:  56.153098200000386
+Train_Loss: 1.4311 Train_Acc: 0.6343
+Test_Loss: 3.4089 Test_Acc: 0.3555
+
+------------------------------------------------------
+epoch 60/300
+Time taken for Training:  56.0479820999999
+Train_Loss: 1.4610 Train_Acc: 0.6142
+Test_Loss: 3.3497 Test_Acc: 0.3711
+
+------------------------------------------------------
+epoch 61/300
+Time taken for Training:  55.765249199999744
+Train_Loss: 1.4061 Train_Acc: 0.6321
+Test_Loss: 3.3938 Test_Acc: 0.3685
+
+------------------------------------------------------
+epoch 62/300
+Time taken for Training:  56.290863700000045
+Train_Loss: 1.4375 Train_Acc: 0.6278
+Test_Loss: 3.3906 Test_Acc: 0.3698
+
+------------------------------------------------------
+epoch 63/300
+Time taken for Training:  56.4493881999997
+Train_Loss: 1.3954 Train_Acc: 0.6383
+Test_Loss: 3.4148 Test_Acc: 0.3737
+
+------------------------------------------------------
+epoch 64/300
+Time taken for Training:  56.65721969999959
+Train_Loss: 1.3588 Train_Acc: 0.6460
+Test_Loss: 3.6229 Test_Acc: 0.3835
+
+------------------------------------------------------
+epoch 65/300
+Time taken for Training:  56.91041150000001
+Train_Loss: 1.3275 Train_Acc: 0.6488
+Test_Loss: 3.4838 Test_Acc: 0.3704
+
+------------------------------------------------------
+epoch 66/300
+Time taken for Training:  55.9502236999997
+Train_Loss: 1.3468 Train_Acc: 0.6401
+Test_Loss: 3.3787 Test_Acc: 0.3607
+
+------------------------------------------------------
+epoch 67/300
+Time taken for Training:  56.47951260000082
+Train_Loss: 1.3817 Train_Acc: 0.6485
+Test_Loss: 3.2605 Test_Acc: 0.3639
+
+------------------------------------------------------
+epoch 68/300
+Time taken for Training:  56.16324110000005
+Train_Loss: 1.3490 Train_Acc: 0.6475
+Test_Loss: 3.4855 Test_Acc: 0.3913
+
+------------------------------------------------------
+epoch 69/300
+Time taken for Training:  56.25307970000085
+Train_Loss: 1.3462 Train_Acc: 0.6503
+Test_Loss: 3.4324 Test_Acc: 0.3991
+
+------------------------------------------------------
+epoch 70/300
+Time taken for Training:  56.5585645000001
+Train_Loss: 1.2465 Train_Acc: 0.6713
+Test_Loss: 3.3959 Test_Acc: 0.3932
+
+------------------------------------------------------
+epoch 71/300
+Time taken for Training:  55.94365049999942
+Train_Loss: 1.2786 Train_Acc: 0.6710
+Test_Loss: 3.5494 Test_Acc: 0.3750
+
+------------------------------------------------------
+epoch 72/300
+Time taken for Training:  55.92703520000032
+Train_Loss: 1.3269 Train_Acc: 0.6707
+Test_Loss: 3.6441 Test_Acc: 0.3893
+
+------------------------------------------------------
+epoch 73/300
+Time taken for Training:  56.44167919999927
+Train_Loss: 1.3004 Train_Acc: 0.6586
+Test_Loss: 3.4647 Test_Acc: 0.3978
+
+------------------------------------------------------
+epoch 74/300
+Time taken for Training:  56.36794100000043
+Train_Loss: 1.3209 Train_Acc: 0.6580
+Test_Loss: 3.5351 Test_Acc: 0.3796
+
+------------------------------------------------------
+epoch 75/300
+Time taken for Training:  56.29168260000006
+Train_Loss: 1.2623 Train_Acc: 0.6722
+Test_Loss: 3.4924 Test_Acc: 0.3952
+
+------------------------------------------------------
+epoch 76/300
+Time taken for Training:  56.54136070000004
+Train_Loss: 1.2968 Train_Acc: 0.6704
+Test_Loss: 3.6385 Test_Acc: 0.3783
+
+------------------------------------------------------
+epoch 77/300
+Time taken for Training:  56.16790289999972
+Train_Loss: 1.1637 Train_Acc: 0.7009
+Test_Loss: 3.6322 Test_Acc: 0.3900
+
+------------------------------------------------------
+epoch 78/300
+Time taken for Training:  56.11562809999941
+Train_Loss: 1.2496 Train_Acc: 0.6691
+Test_Loss: 3.5154 Test_Acc: 0.3835
+
+------------------------------------------------------
+epoch 79/300
+Time taken for Training:  56.05188180000005
+Train_Loss: 1.2419 Train_Acc: 0.6722
+Test_Loss: 3.5316 Test_Acc: 0.3730
+
+------------------------------------------------------
+epoch 80/300
+Time taken for Training:  55.6299484000001
+Train_Loss: 1.1848 Train_Acc: 0.6907
+Test_Loss: 3.5668 Test_Acc: 0.3730
+
+------------------------------------------------------
+epoch 81/300
+Time taken for Training:  55.60372300000017
+Train_Loss: 1.2219 Train_Acc: 0.6793
+Test_Loss: 3.4975 Test_Acc: 0.3861
+
+------------------------------------------------------
+epoch 82/300
+Time taken for Training:  56.24567830000069
+Train_Loss: 1.1737 Train_Acc: 0.6954
+Test_Loss: 3.7713 Test_Acc: 0.3704
+
+------------------------------------------------------
+epoch 83/300
+Time taken for Training:  56.34147200000007
+Train_Loss: 1.1804 Train_Acc: 0.6873
+Test_Loss: 3.4173 Test_Acc: 0.3796
+
+------------------------------------------------------
+epoch 84/300
+Time taken for Training:  55.93704759999946
+Train_Loss: 1.2076 Train_Acc: 0.6846
+Test_Loss: 3.6059 Test_Acc: 0.3861
+
+------------------------------------------------------
+epoch 85/300
+Time taken for Training:  56.12343000000055
+Train_Loss: 1.1327 Train_Acc: 0.6988
+Test_Loss: 3.7681 Test_Acc: 0.3861
+
+------------------------------------------------------
+epoch 86/300
+Time taken for Training:  56.29137069999979
+Train_Loss: 1.1996 Train_Acc: 0.6907
+Test_Loss: 3.5845 Test_Acc: 0.3822
+
+------------------------------------------------------
+epoch 87/300
+Time taken for Training:  56.60972469999979
+Train_Loss: 1.1865 Train_Acc: 0.6910
+Test_Loss: 3.5582 Test_Acc: 0.4069
+
+------------------------------------------------------
+epoch 88/300
+Time taken for Training:  55.675195699999676
+Train_Loss: 1.1319 Train_Acc: 0.6910
+Test_Loss: 3.4921 Test_Acc: 0.3939
+
+------------------------------------------------------
+epoch 89/300
+Time taken for Training:  56.94541550000031
+Train_Loss: 1.1221 Train_Acc: 0.7133
+Test_Loss: 3.7986 Test_Acc: 0.3854
+
+------------------------------------------------------
+epoch 90/300
+Time taken for Training:  55.91738340000029
+Train_Loss: 1.1805 Train_Acc: 0.6951
+Test_Loss: 3.8624 Test_Acc: 0.3887
+
+------------------------------------------------------
+epoch 91/300
+Time taken for Training:  56.487279099999796
+Train_Loss: 1.1516 Train_Acc: 0.7031
+Test_Loss: 3.6590 Test_Acc: 0.3678
+
+------------------------------------------------------
+epoch 92/300
+Time taken for Training:  56.52061230000072
+Train_Loss: 1.0999 Train_Acc: 0.7049
+Test_Loss: 3.6748 Test_Acc: 0.3861
+
+------------------------------------------------------
+epoch 93/300
+Time taken for Training:  56.18120259999978
+Train_Loss: 1.1940 Train_Acc: 0.6843
+Test_Loss: 3.6729 Test_Acc: 0.3587
+
+------------------------------------------------------
+epoch 94/300
+Time taken for Training:  56.5552004000001
+Train_Loss: 1.1648 Train_Acc: 0.7052
+Test_Loss: 3.7674 Test_Acc: 0.3717
+
+------------------------------------------------------
+epoch 95/300
+Time taken for Training:  56.324989100000494
+Train_Loss: 1.1000 Train_Acc: 0.7099
+Test_Loss: 3.6824 Test_Acc: 0.3828
+
+------------------------------------------------------
+epoch 96/300
+Time taken for Training:  56.16255889999957
+Train_Loss: 1.0833 Train_Acc: 0.7139
+Test_Loss: 3.8334 Test_Acc: 0.3945
+
+------------------------------------------------------
+epoch 97/300
+Time taken for Training:  55.758090000000266
+Train_Loss: 1.1710 Train_Acc: 0.7009
+Test_Loss: 3.5074 Test_Acc: 0.3717
+
+------------------------------------------------------
+epoch 98/300
+Time taken for Training:  55.905065200000536
+Train_Loss: 1.1445 Train_Acc: 0.6883
+Test_Loss: 3.6995 Test_Acc: 0.4030
+
+------------------------------------------------------
+epoch 99/300
+Time taken for Training:  55.88992710000002
+Train_Loss: 1.1071 Train_Acc: 0.7170
+Test_Loss: 3.6882 Test_Acc: 0.3919
+
+------------------------------------------------------
+epoch 100/300
+Time taken for Training:  55.8931661000006
+Train_Loss: 1.1875 Train_Acc: 0.6966
+Test_Loss: 3.5412 Test_Acc: 0.3743
+
+------------------------------------------------------
+epoch 101/300
+Time taken for Training:  55.79482410000037
+Train_Loss: 1.0778 Train_Acc: 0.7160
+Test_Loss: 3.6314 Test_Acc: 0.4004
+
+------------------------------------------------------
+epoch 102/300
+Time taken for Training:  56.29228819999935
+Train_Loss: 1.0759 Train_Acc: 0.7182
+Test_Loss: 3.5916 Test_Acc: 0.4017
+
+------------------------------------------------------
+epoch 103/300
+Time taken for Training:  55.88218070000039
+Train_Loss: 1.0555 Train_Acc: 0.7333
+Test_Loss: 3.7165 Test_Acc: 0.3893
+
+------------------------------------------------------
+epoch 104/300
+Time taken for Training:  55.92940459999954
+Train_Loss: 1.0786 Train_Acc: 0.7148
+Test_Loss: 3.7256 Test_Acc: 0.3854
+
+------------------------------------------------------
+epoch 105/300
+Time taken for Training:  55.85863909999989
+Train_Loss: 1.1099 Train_Acc: 0.7120
+Test_Loss: 3.6830 Test_Acc: 0.3984
+
+------------------------------------------------------
+epoch 106/300
+Time taken for Training:  56.17737219999981
+Train_Loss: 1.0386 Train_Acc: 0.7207
+Test_Loss: 3.7580 Test_Acc: 0.3978
+
+------------------------------------------------------
+epoch 107/300
+Time taken for Training:  56.341894799999864
+Train_Loss: 1.0851 Train_Acc: 0.7108
+Test_Loss: 3.7145 Test_Acc: 0.3926
+
+------------------------------------------------------
+epoch 108/300
+Time taken for Training:  55.795309900000575
+Train_Loss: 1.0902 Train_Acc: 0.7114
+Test_Loss: 3.6287 Test_Acc: 0.4069
+
+------------------------------------------------------
+epoch 109/300
+Time taken for Training:  55.830654100000174
+Train_Loss: 1.0429 Train_Acc: 0.7281
+Test_Loss: 3.8347 Test_Acc: 0.3880
+
+------------------------------------------------------
+epoch 110/300
+Time taken for Training:  55.92990540000028
+Train_Loss: 1.0612 Train_Acc: 0.7293
+Test_Loss: 3.8032 Test_Acc: 0.3900
+
+------------------------------------------------------
+epoch 111/300
+Time taken for Training:  55.98935619999975
+Train_Loss: 1.1070 Train_Acc: 0.7077
+Test_Loss: 3.9162 Test_Acc: 0.4049
+
+------------------------------------------------------
+epoch 112/300
+Time taken for Training:  56.40271180000127
+Train_Loss: 1.0353 Train_Acc: 0.7290
+Test_Loss: 3.8287 Test_Acc: 0.4004
+
+------------------------------------------------------
+epoch 113/300
+Time taken for Training:  55.982905899998514
+Train_Loss: 1.0959 Train_Acc: 0.7185
+Test_Loss: 3.7937 Test_Acc: 0.3776
+
+------------------------------------------------------
+epoch 114/300
+Time taken for Training:  56.05989939999927
+Train_Loss: 1.0076 Train_Acc: 0.7272
+Test_Loss: 3.8629 Test_Acc: 0.3854
+
+------------------------------------------------------
+epoch 115/300
+Time taken for Training:  55.9843965
+Train_Loss: 1.0610 Train_Acc: 0.7244
+Test_Loss: 3.8668 Test_Acc: 0.3926
+
+------------------------------------------------------
+epoch 116/300
+Time taken for Training:  56.23987970000053
+Train_Loss: 1.0163 Train_Acc: 0.7330
+Test_Loss: 3.9064 Test_Acc: 0.3965
+
+------------------------------------------------------
+epoch 117/300
+Time taken for Training:  56.263861199999155
+Train_Loss: 1.0224 Train_Acc: 0.7358
+Test_Loss: 3.8672 Test_Acc: 0.4043
+
+------------------------------------------------------
+epoch 118/300
+Time taken for Training:  56.56093820000024
+Train_Loss: 1.0464 Train_Acc: 0.7262
+Test_Loss: 3.7472 Test_Acc: 0.3997
+
+------------------------------------------------------
+epoch 119/300
+Time taken for Training:  55.81262989999959
+Train_Loss: 1.0470 Train_Acc: 0.7262
+Test_Loss: 3.6860 Test_Acc: 0.4115
+
+------------------------------------------------------
+epoch 120/300
+Time taken for Training:  56.2475986999998
+Train_Loss: 1.0510 Train_Acc: 0.7244
+Test_Loss: 3.8134 Test_Acc: 0.3783
+
+------------------------------------------------------
+epoch 121/300
+Time taken for Training:  55.65575329999956
+Train_Loss: 1.0174 Train_Acc: 0.7312
+Test_Loss: 3.5227 Test_Acc: 0.4017
+
+------------------------------------------------------
+epoch 122/300
+Time taken for Training:  56.08277639999869
+Train_Loss: 1.0187 Train_Acc: 0.7306
+Test_Loss: 3.7946 Test_Acc: 0.3952
+
+------------------------------------------------------
+epoch 123/300
+Time taken for Training:  56.48855519999961
+Train_Loss: 1.0316 Train_Acc: 0.7423
+Test_Loss: 3.9519 Test_Acc: 0.3841
+
+------------------------------------------------------
+epoch 124/300
+Time taken for Training:  56.17739679999977
+Train_Loss: 1.0265 Train_Acc: 0.7241
+Test_Loss: 3.7959 Test_Acc: 0.3880
+
+------------------------------------------------------
+epoch 125/300
+Time taken for Training:  55.92811640000036
+Train_Loss: 1.0173 Train_Acc: 0.7312
+Test_Loss: 3.6406 Test_Acc: 0.3776
+
+------------------------------------------------------
+epoch 126/300
+Time taken for Training:  55.957190099999934
+Train_Loss: 0.9784 Train_Acc: 0.7475
+Test_Loss: 3.8034 Test_Acc: 0.4082
+
+------------------------------------------------------
+epoch 127/300
+Time taken for Training:  55.74339599999985
+Train_Loss: 0.9565 Train_Acc: 0.7531
+Test_Loss: 3.7525 Test_Acc: 0.3939
+
+------------------------------------------------------
+epoch 128/300
+Time taken for Training:  55.92481709999993
+Train_Loss: 1.0180 Train_Acc: 0.7343
+Test_Loss: 3.7689 Test_Acc: 0.3919
+
+------------------------------------------------------
+epoch 129/300
+Time taken for Training:  56.161757100000614
+Train_Loss: 1.0357 Train_Acc: 0.7293
+Test_Loss: 3.8325 Test_Acc: 0.3926
+
+------------------------------------------------------
+epoch 130/300
+Time taken for Training:  56.4406009000013
+Train_Loss: 1.0188 Train_Acc: 0.7367
+Test_Loss: 3.9375 Test_Acc: 0.3906
+
+------------------------------------------------------
+epoch 131/300
+Time taken for Training:  55.69067670000004
+Train_Loss: 1.0148 Train_Acc: 0.7386
+Test_Loss: 3.8998 Test_Acc: 0.3965
+
+------------------------------------------------------
+epoch 132/300
+Time taken for Training:  55.84551949999877
+Train_Loss: 0.9512 Train_Acc: 0.7503
+Test_Loss: 3.8230 Test_Acc: 0.4010
+
+------------------------------------------------------
+epoch 133/300
+Time taken for Training:  56.22652610000114
+Train_Loss: 0.9304 Train_Acc: 0.7568
+Test_Loss: 3.9479 Test_Acc: 0.4095
+
+------------------------------------------------------
+epoch 134/300
+Time taken for Training:  55.942972500000906
+Train_Loss: 0.9509 Train_Acc: 0.7540
+Test_Loss: 4.3042 Test_Acc: 0.3854
+
+------------------------------------------------------
+epoch 135/300
+Time taken for Training:  56.22920160000103
+Train_Loss: 0.9855 Train_Acc: 0.7432
+Test_Loss: 4.0336 Test_Acc: 0.3783
+
+------------------------------------------------------
+epoch 136/300
+Time taken for Training:  55.75067119999949
+Train_Loss: 0.9762 Train_Acc: 0.7398
+Test_Loss: 3.8559 Test_Acc: 0.3945
+
+------------------------------------------------------
+epoch 137/300
+Time taken for Training:  56.694331200000306
+Train_Loss: 0.9290 Train_Acc: 0.7580
+Test_Loss: 3.8835 Test_Acc: 0.3900
+
+------------------------------------------------------
+epoch 138/300
+Time taken for Training:  55.84725090000029
+Train_Loss: 0.9653 Train_Acc: 0.7534
+Test_Loss: 3.9853 Test_Acc: 0.4017
+
+------------------------------------------------------
+epoch 139/300
+Time taken for Training:  56.42024779999883
+Train_Loss: 0.9549 Train_Acc: 0.7481
+Test_Loss: 4.0286 Test_Acc: 0.3926
+
+------------------------------------------------------
+epoch 140/300
+Time taken for Training:  56.32365299999947
+Train_Loss: 0.9446 Train_Acc: 0.7546
+Test_Loss: 3.8794 Test_Acc: 0.4017
+
+------------------------------------------------------
+epoch 141/300
+Time taken for Training:  56.27862810000079
+Train_Loss: 0.9082 Train_Acc: 0.7590
+Test_Loss: 4.0913 Test_Acc: 0.4043
+
+------------------------------------------------------
+epoch 142/300
+Time taken for Training:  56.584832300000926
+Train_Loss: 0.9253 Train_Acc: 0.7664
+Test_Loss: 4.0097 Test_Acc: 0.3991
+
+------------------------------------------------------
+epoch 143/300
+Time taken for Training:  55.78060419999929
+Train_Loss: 1.0021 Train_Acc: 0.7407
+Test_Loss: 3.9744 Test_Acc: 0.3789
+
+------------------------------------------------------
+epoch 144/300
+Time taken for Training:  56.393073399998684
+Train_Loss: 0.9681 Train_Acc: 0.7491
+Test_Loss: 3.9050 Test_Acc: 0.3984
+
+------------------------------------------------------
+epoch 145/300
+Time taken for Training:  55.598123400000986
+Train_Loss: 0.9977 Train_Acc: 0.7509
+Test_Loss: 4.0100 Test_Acc: 0.3737
+
+------------------------------------------------------
+epoch 146/300
+Time taken for Training:  56.52736349999941
+Train_Loss: 0.8861 Train_Acc: 0.7636
+Test_Loss: 4.1018 Test_Acc: 0.3880
+
+------------------------------------------------------
+epoch 147/300
+Time taken for Training:  56.38431969999874
+Train_Loss: 0.9182 Train_Acc: 0.7580
+Test_Loss: 3.7945 Test_Acc: 0.3861
+
+------------------------------------------------------
+epoch 148/300
+Time taken for Training:  55.04487100000006
+Train_Loss: 0.9959 Train_Acc: 0.7460
+Test_Loss: 4.0161 Test_Acc: 0.4030
+
+------------------------------------------------------
+epoch 149/300
+Time taken for Training:  55.816737700000886
+Train_Loss: 0.9701 Train_Acc: 0.7512
+Test_Loss: 3.9887 Test_Acc: 0.3730
+
+------------------------------------------------------
+epoch 150/300
+Time taken for Training:  55.823492599998644
+Train_Loss: 0.9484 Train_Acc: 0.7528
+Test_Loss: 3.7511 Test_Acc: 0.3887
+
+------------------------------------------------------
+epoch 151/300
+Time taken for Training:  56.25289619999967
+Train_Loss: 0.9445 Train_Acc: 0.7590
+Test_Loss: 3.7435 Test_Acc: 0.3965
+
+------------------------------------------------------
+epoch 152/300
+Time taken for Training:  55.66942310000013
+Train_Loss: 0.9472 Train_Acc: 0.7546
+Test_Loss: 4.1193 Test_Acc: 0.4030
+
+------------------------------------------------------
+epoch 153/300
+Time taken for Training:  56.32243879999987
+Train_Loss: 0.9723 Train_Acc: 0.7454
+Test_Loss: 4.0223 Test_Acc: 0.3763
+
+------------------------------------------------------
+epoch 154/300
+Time taken for Training:  56.170134099998904
+Train_Loss: 0.9892 Train_Acc: 0.7336
+Test_Loss: 3.9476 Test_Acc: 0.3835
+
+------------------------------------------------------
+epoch 155/300
+Time taken for Training:  55.875878299999385
+Train_Loss: 0.9746 Train_Acc: 0.7515
+Test_Loss: 3.9590 Test_Acc: 0.3678
+
+------------------------------------------------------
+epoch 156/300
+Time taken for Training:  55.603555400000914
+Train_Loss: 0.9566 Train_Acc: 0.7500
+Test_Loss: 3.9375 Test_Acc: 0.4004
+
+------------------------------------------------------
+epoch 157/300
+Time taken for Training:  55.74798329999976
+Train_Loss: 0.9444 Train_Acc: 0.7537
+Test_Loss: 3.9678 Test_Acc: 0.3945
+
+------------------------------------------------------
+epoch 158/300
+Time taken for Training:  55.52669950000018
+Train_Loss: 0.9258 Train_Acc: 0.7611
+Test_Loss: 3.9264 Test_Acc: 0.3815
+
+------------------------------------------------------
+epoch 159/300
+Time taken for Training:  55.78127599999971
+Train_Loss: 0.9437 Train_Acc: 0.7556
+Test_Loss: 4.1427 Test_Acc: 0.3835
+
+------------------------------------------------------
+epoch 160/300
+Time taken for Training:  56.51041239999904
+Train_Loss: 1.0090 Train_Acc: 0.7466
+Test_Loss: 3.8904 Test_Acc: 0.3770
+
+------------------------------------------------------
+epoch 161/300
+Time taken for Training:  56.10295869999936
+Train_Loss: 0.8820 Train_Acc: 0.7574
+Test_Loss: 4.1260 Test_Acc: 0.3984
+
+------------------------------------------------------
+epoch 162/300
+Time taken for Training:  59.582476500001576
+Train_Loss: 0.8785 Train_Acc: 0.7698
+Test_Loss: 4.1277 Test_Acc: 0.4023
+
+------------------------------------------------------
+epoch 163/300
+Time taken for Training:  59.66455000000133
+Train_Loss: 0.9527 Train_Acc: 0.7596
+Test_Loss: 4.0847 Test_Acc: 0.3952
+
+------------------------------------------------------
+epoch 164/300
+Time taken for Training:  58.3942064999992
+Train_Loss: 0.9370 Train_Acc: 0.7633
+Test_Loss: 3.7893 Test_Acc: 0.4017
+
+------------------------------------------------------
+epoch 165/300
+Time taken for Training:  59.778554300000906
+Train_Loss: 0.9760 Train_Acc: 0.7574
+Test_Loss: 3.8404 Test_Acc: 0.3750
+
+------------------------------------------------------
+epoch 166/300
+Time taken for Training:  59.39971880000121
+Train_Loss: 0.9309 Train_Acc: 0.7660
+Test_Loss: 3.8784 Test_Acc: 0.4004
+
+------------------------------------------------------
+epoch 167/300
+Time taken for Training:  59.18622780000078
+Train_Loss: 0.9305 Train_Acc: 0.7691
+Test_Loss: 4.0835 Test_Acc: 0.3822
+
+------------------------------------------------------
+epoch 168/300
+Time taken for Training:  58.74739280000176
+Train_Loss: 0.9294 Train_Acc: 0.7648
+Test_Loss: 3.8266 Test_Acc: 0.3984
+
+------------------------------------------------------
+epoch 169/300
+Time taken for Training:  58.73487540000133
+Train_Loss: 0.8636 Train_Acc: 0.7707
+Test_Loss: 4.0886 Test_Acc: 0.3796
+
+------------------------------------------------------
+epoch 170/300
+Time taken for Training:  59.03886960000091
+Train_Loss: 0.9137 Train_Acc: 0.7593
+Test_Loss: 4.0365 Test_Acc: 0.3952
+
+------------------------------------------------------
+epoch 171/300
+Time taken for Training:  58.5836675999999
+Train_Loss: 0.8814 Train_Acc: 0.7731
+Test_Loss: 4.0063 Test_Acc: 0.3874
+
+------------------------------------------------------
+epoch 172/300
+Time taken for Training:  59.27220660000057
+Train_Loss: 0.8776 Train_Acc: 0.7707
+Test_Loss: 3.9785 Test_Acc: 0.3874
+
+------------------------------------------------------
+epoch 173/300
+Time taken for Training:  58.73676060000071
+Train_Loss: 0.9539 Train_Acc: 0.7509
+Test_Loss: 3.9124 Test_Acc: 0.3841
+
+------------------------------------------------------
+epoch 174/300
+Time taken for Training:  59.03282489999947
+Train_Loss: 0.8976 Train_Acc: 0.7608
+Test_Loss: 4.0293 Test_Acc: 0.3815
+
+------------------------------------------------------
+epoch 175/300
+Time taken for Training:  59.30022780000036
+Train_Loss: 0.9474 Train_Acc: 0.7531
+Test_Loss: 3.9598 Test_Acc: 0.3893
+
+------------------------------------------------------
+epoch 176/300
+Time taken for Training:  59.15991050000048
+Train_Loss: 0.9176 Train_Acc: 0.7657
+Test_Loss: 4.2064 Test_Acc: 0.3802
+
+------------------------------------------------------
+epoch 177/300
+Time taken for Training:  60.12512179999976
+Train_Loss: 0.8734 Train_Acc: 0.7738
+Test_Loss: 4.0184 Test_Acc: 0.3698
+
+------------------------------------------------------
+epoch 178/300
+Time taken for Training:  56.79680499999995
+Train_Loss: 0.9085 Train_Acc: 0.7608
+Test_Loss: 4.0800 Test_Acc: 0.3900
+
+------------------------------------------------------
+epoch 179/300
+Time taken for Training:  56.34573849999833
+Train_Loss: 0.9264 Train_Acc: 0.7577
+Test_Loss: 3.9521 Test_Acc: 0.3848
+
+------------------------------------------------------
+epoch 180/300
+Time taken for Training:  56.86363600000004
+Train_Loss: 0.8654 Train_Acc: 0.7657
+Test_Loss: 3.9865 Test_Acc: 0.4141
+
+------------------------------------------------------
+epoch 181/300
+Time taken for Training:  57.00275440000041
+Train_Loss: 0.9271 Train_Acc: 0.7688
+Test_Loss: 3.9922 Test_Acc: 0.3932
+
+------------------------------------------------------
+epoch 182/300
+Time taken for Training:  57.09746040000027
+Train_Loss: 0.9459 Train_Acc: 0.7556
+Test_Loss: 3.9087 Test_Acc: 0.3991
+
+------------------------------------------------------
+epoch 183/300
+Time taken for Training:  57.157376099999965
+Train_Loss: 0.9030 Train_Acc: 0.7633
+Test_Loss: 3.9564 Test_Acc: 0.3997
+
+------------------------------------------------------
+epoch 184/300
+Time taken for Training:  58.17027380000036
+Train_Loss: 0.9413 Train_Acc: 0.7627
+Test_Loss: 3.9510 Test_Acc: 0.3932
+
+------------------------------------------------------
+epoch 185/300
+Time taken for Training:  57.108280899999954
+Train_Loss: 0.8437 Train_Acc: 0.7698
+Test_Loss: 3.9040 Test_Acc: 0.4082
+
+------------------------------------------------------
+epoch 186/300
+Time taken for Training:  57.700158399999054
+Train_Loss: 0.8696 Train_Acc: 0.7769
+Test_Loss: 4.1477 Test_Acc: 0.3978
+
+------------------------------------------------------
+epoch 187/300
+Time taken for Training:  57.38271749999876
+Train_Loss: 0.8491 Train_Acc: 0.7799
+Test_Loss: 4.0305 Test_Acc: 0.4089
+
+------------------------------------------------------
+epoch 188/300
+Time taken for Training:  57.249711300000854
+Train_Loss: 0.9112 Train_Acc: 0.7747
+Test_Loss: 4.1284 Test_Acc: 0.3965
+
+------------------------------------------------------
+epoch 189/300
+Time taken for Training:  57.46538090000104
+Train_Loss: 0.9212 Train_Acc: 0.7633
+Test_Loss: 3.8600 Test_Acc: 0.3841
+
+------------------------------------------------------
+epoch 190/300
+Time taken for Training:  57.212189700001545
+Train_Loss: 0.9074 Train_Acc: 0.7627
+Test_Loss: 4.0511 Test_Acc: 0.3880
+
+------------------------------------------------------
+epoch 191/300
+Time taken for Training:  57.709535199999664
+Train_Loss: 0.9000 Train_Acc: 0.7620
+Test_Loss: 4.3182 Test_Acc: 0.4043
+
+------------------------------------------------------
+epoch 192/300
+Time taken for Training:  57.273815299999114
+Train_Loss: 0.9042 Train_Acc: 0.7611
+Test_Loss: 4.0478 Test_Acc: 0.3965
+
+------------------------------------------------------
+epoch 193/300
+Time taken for Training:  56.98486369999955
+Train_Loss: 0.8962 Train_Acc: 0.7685
+Test_Loss: 4.0534 Test_Acc: 0.4095
+
+------------------------------------------------------
+epoch 194/300
+Time taken for Training:  56.86742779999986
+Train_Loss: 0.8696 Train_Acc: 0.7799
+Test_Loss: 4.1892 Test_Acc: 0.3913
+
+------------------------------------------------------
+epoch 195/300
+Time taken for Training:  57.18054170000141
+Train_Loss: 0.9320 Train_Acc: 0.7651
+Test_Loss: 3.8376 Test_Acc: 0.4121
+
+------------------------------------------------------
+epoch 196/300
+Time taken for Training:  57.61383410000053
+Train_Loss: 0.8986 Train_Acc: 0.7707
+Test_Loss: 4.0748 Test_Acc: 0.3932
+
+------------------------------------------------------
+epoch 197/300
+Time taken for Training:  57.16952180000044
+Train_Loss: 0.8862 Train_Acc: 0.7762
+Test_Loss: 3.9816 Test_Acc: 0.3854
+
+------------------------------------------------------
+epoch 198/300
+Time taken for Training:  56.79961059999914
+Train_Loss: 0.9490 Train_Acc: 0.7630
+Test_Loss: 4.0430 Test_Acc: 0.3874
+
+------------------------------------------------------
+epoch 199/300
+Time taken for Training:  57.317852800000765
+Train_Loss: 0.8596 Train_Acc: 0.7694
+Test_Loss: 3.9968 Test_Acc: 0.3809
+
+------------------------------------------------------
+epoch 200/300
+Time taken for Training:  57.29250800000045
+Train_Loss: 0.9090 Train_Acc: 0.7614
+Test_Loss: 4.1237 Test_Acc: 0.4010
+
+------------------------------------------------------
+epoch 201/300
+Time taken for Training:  56.844962700000906
+Train_Loss: 0.8631 Train_Acc: 0.7719
+Test_Loss: 4.2905 Test_Acc: 0.3822
+
+------------------------------------------------------
+epoch 202/300
+Time taken for Training:  57.21853009999904
+Train_Loss: 0.9032 Train_Acc: 0.7679
+Test_Loss: 4.1266 Test_Acc: 0.3978
+
+------------------------------------------------------
+epoch 203/300
+Time taken for Training:  56.71469839999918
+Train_Loss: 0.8812 Train_Acc: 0.7756
+Test_Loss: 4.1767 Test_Acc: 0.4062
+
+------------------------------------------------------
+epoch 204/300
+Time taken for Training:  57.53783049999947
+Train_Loss: 0.8828 Train_Acc: 0.7651
+Test_Loss: 4.3580 Test_Acc: 0.3880
+
+------------------------------------------------------
+epoch 205/300
+Time taken for Training:  57.917375200000606
+Train_Loss: 0.8618 Train_Acc: 0.7870
+Test_Loss: 4.2409 Test_Acc: 0.3913
+
+------------------------------------------------------
+epoch 206/300
+Time taken for Training:  57.79591520000031
+Train_Loss: 0.9513 Train_Acc: 0.7577
+Test_Loss: 3.8231 Test_Acc: 0.3887
+
+------------------------------------------------------
+epoch 207/300
+Time taken for Training:  56.8314117000009
+Train_Loss: 0.9075 Train_Acc: 0.7673
+Test_Loss: 4.1080 Test_Acc: 0.3848
+
+------------------------------------------------------
+epoch 208/300
+Time taken for Training:  57.35618609999983
+Train_Loss: 0.8563 Train_Acc: 0.7840
+Test_Loss: 4.3118 Test_Acc: 0.4017
+
+------------------------------------------------------
+epoch 209/300
+Time taken for Training:  56.9708198999997
+Train_Loss: 0.9633 Train_Acc: 0.7534
+Test_Loss: 4.2330 Test_Acc: 0.3978
+
+------------------------------------------------------
+epoch 210/300
+Time taken for Training:  56.89928709999913
+Train_Loss: 0.8828 Train_Acc: 0.7784
+Test_Loss: 4.1069 Test_Acc: 0.3854
+
+------------------------------------------------------
+epoch 211/300
+Time taken for Training:  57.55790739999975
+Train_Loss: 0.9257 Train_Acc: 0.7673
+Test_Loss: 3.9257 Test_Acc: 0.3867
+
+------------------------------------------------------
+epoch 212/300
+Time taken for Training:  56.83656560000054
+Train_Loss: 0.8294 Train_Acc: 0.7830
+Test_Loss: 4.2808 Test_Acc: 0.3932
+
+------------------------------------------------------
+epoch 213/300
+Time taken for Training:  57.22081950000029
+Train_Loss: 0.8454 Train_Acc: 0.7883
+Test_Loss: 4.1945 Test_Acc: 0.3945
+
+------------------------------------------------------
+epoch 214/300
+Time taken for Training:  56.7758002999999
+Train_Loss: 0.8476 Train_Acc: 0.7864
+Test_Loss: 4.3290 Test_Acc: 0.3913
+
+------------------------------------------------------
+epoch 215/300
+Time taken for Training:  57.25155889999951
+Train_Loss: 0.8680 Train_Acc: 0.7667
+Test_Loss: 4.0577 Test_Acc: 0.3867
+
+------------------------------------------------------
+epoch 216/300
+Time taken for Training:  57.12085119999938
+Train_Loss: 0.7766 Train_Acc: 0.8009
+Test_Loss: 4.2079 Test_Acc: 0.4102
+
+------------------------------------------------------
+epoch 217/300
+Time taken for Training:  57.36417810000057
+Train_Loss: 0.8346 Train_Acc: 0.7849
+Test_Loss: 4.2556 Test_Acc: 0.3952
+
+------------------------------------------------------
+epoch 218/300
+Time taken for Training:  57.270100300000195
+Train_Loss: 0.8652 Train_Acc: 0.7790
+Test_Loss: 4.2042 Test_Acc: 0.3984
+
+------------------------------------------------------
+epoch 219/300
+Time taken for Training:  57.519095700001344
+Train_Loss: 0.8483 Train_Acc: 0.7765
+Test_Loss: 4.1885 Test_Acc: 0.3997
+
+------------------------------------------------------
+epoch 220/300
+Time taken for Training:  57.12795580000238
+Train_Loss: 0.8349 Train_Acc: 0.7877
+Test_Loss: 4.4010 Test_Acc: 0.3913
+
+------------------------------------------------------
+epoch 221/300
+Time taken for Training:  57.096309000000474
+Train_Loss: 0.8541 Train_Acc: 0.7775
+Test_Loss: 4.2987 Test_Acc: 0.4043
+
+------------------------------------------------------
+epoch 222/300
+Time taken for Training:  56.514070000001084
+Train_Loss: 0.8338 Train_Acc: 0.7886
+Test_Loss: 4.1798 Test_Acc: 0.4036
+
+------------------------------------------------------
+epoch 223/300
+Time taken for Training:  57.755554200000915
+Train_Loss: 0.8642 Train_Acc: 0.7846
+Test_Loss: 4.0529 Test_Acc: 0.3815
+
+------------------------------------------------------
+epoch 224/300
+Time taken for Training:  56.970030399999814
+Train_Loss: 0.8994 Train_Acc: 0.7620
+Test_Loss: 4.1566 Test_Acc: 0.3652
+
+------------------------------------------------------
+epoch 225/300
+Time taken for Training:  56.824384499999724
+Train_Loss: 0.8684 Train_Acc: 0.7787
+Test_Loss: 4.2647 Test_Acc: 0.3815
+
+------------------------------------------------------
+epoch 226/300
+Time taken for Training:  57.1566172999992
+Train_Loss: 0.8775 Train_Acc: 0.7821
+Test_Loss: 4.0603 Test_Acc: 0.3939
+
+------------------------------------------------------
+epoch 227/300
+Time taken for Training:  57.49882549999893
+Train_Loss: 0.8347 Train_Acc: 0.7864
+Test_Loss: 3.9043 Test_Acc: 0.3802
+
+------------------------------------------------------
+epoch 228/300
+Time taken for Training:  56.65697410000212
+Train_Loss: 0.8726 Train_Acc: 0.7790
+Test_Loss: 3.8480 Test_Acc: 0.4082
+
+------------------------------------------------------
+epoch 229/300
+Time taken for Training:  56.81201139999757
+Train_Loss: 0.8328 Train_Acc: 0.7818
+Test_Loss: 3.9745 Test_Acc: 0.3913
+
+------------------------------------------------------
+epoch 230/300
+Time taken for Training:  57.511690300001646
+Train_Loss: 0.9040 Train_Acc: 0.7769
+Test_Loss: 4.1533 Test_Acc: 0.4180
+
+------------------------------------------------------
+epoch 231/300
+Time taken for Training:  57.74973460000183
+Train_Loss: 0.8510 Train_Acc: 0.7827
+Test_Loss: 4.1614 Test_Acc: 0.3926
+
+------------------------------------------------------
+epoch 232/300
+Time taken for Training:  56.88213209999958
+Train_Loss: 0.9497 Train_Acc: 0.7704
+Test_Loss: 3.9828 Test_Acc: 0.4017
+
+------------------------------------------------------
+epoch 233/300
+Time taken for Training:  57.20004609999887
+Train_Loss: 0.8834 Train_Acc: 0.7728
+Test_Loss: 4.2538 Test_Acc: 0.4056
+
+------------------------------------------------------
+epoch 234/300
+Time taken for Training:  56.734231800001
+Train_Loss: 0.8340 Train_Acc: 0.7855
+Test_Loss: 4.0289 Test_Acc: 0.3919
+
+------------------------------------------------------
+epoch 235/300
+Time taken for Training:  56.949039499999344
+Train_Loss: 0.9172 Train_Acc: 0.7593
+Test_Loss: 4.3468 Test_Acc: 0.4004
+
+------------------------------------------------------
+epoch 236/300
+Time taken for Training:  56.890986800000974
+Train_Loss: 0.8687 Train_Acc: 0.7821
+Test_Loss: 4.0843 Test_Acc: 0.3939
+
+------------------------------------------------------
+epoch 237/300
+Time taken for Training:  57.10880400000315
+Train_Loss: 0.9228 Train_Acc: 0.7670
+Test_Loss: 3.9788 Test_Acc: 0.3919
+
+------------------------------------------------------
+epoch 238/300
+Time taken for Training:  56.673324200000934
+Train_Loss: 0.8794 Train_Acc: 0.7691
+Test_Loss: 4.1716 Test_Acc: 0.3945
+
+------------------------------------------------------
+epoch 239/300
+Time taken for Training:  57.280912099999114
+Train_Loss: 0.8181 Train_Acc: 0.7917
+Test_Loss: 4.0878 Test_Acc: 0.3991
+
+------------------------------------------------------
+epoch 240/300
+Time taken for Training:  56.72835750000013
+Train_Loss: 0.8393 Train_Acc: 0.7778
+Test_Loss: 4.3697 Test_Acc: 0.3698
+
+------------------------------------------------------
+epoch 241/300
+Time taken for Training:  56.723586899999646
+Train_Loss: 0.8597 Train_Acc: 0.7821
+Test_Loss: 4.3770 Test_Acc: 0.3848
+
+------------------------------------------------------
+epoch 242/300
+Time taken for Training:  57.275061299998924
+Train_Loss: 0.8687 Train_Acc: 0.7784
+Test_Loss: 4.3815 Test_Acc: 0.3828
+
+------------------------------------------------------
+epoch 243/300
+Time taken for Training:  59.400090799998
+Train_Loss: 0.8316 Train_Acc: 0.7855
+Test_Loss: 4.2845 Test_Acc: 0.3841
+
+------------------------------------------------------
+epoch 244/300
+Time taken for Training:  57.00911510000151
+Train_Loss: 0.9428 Train_Acc: 0.7614
+Test_Loss: 4.4245 Test_Acc: 0.3770
+
+------------------------------------------------------
+epoch 245/300
+Time taken for Training:  56.85317039999791
+Train_Loss: 0.8529 Train_Acc: 0.7836
+Test_Loss: 4.2929 Test_Acc: 0.3815
+
+------------------------------------------------------
+epoch 246/300
+Time taken for Training:  56.98640230000092
+Train_Loss: 0.8463 Train_Acc: 0.7840
+Test_Loss: 4.3274 Test_Acc: 0.3978
+
+------------------------------------------------------
+epoch 247/300
+Time taken for Training:  56.643579300001875
+Train_Loss: 0.8263 Train_Acc: 0.7827
+Test_Loss: 4.4145 Test_Acc: 0.3802
+
+------------------------------------------------------
+epoch 248/300
+Time taken for Training:  57.2562367999999
+Train_Loss: 0.8402 Train_Acc: 0.7833
+Test_Loss: 4.2159 Test_Acc: 0.3913
+
+------------------------------------------------------
+epoch 249/300
+Time taken for Training:  57.40351660000306
+Train_Loss: 0.9178 Train_Acc: 0.7660
+Test_Loss: 4.4367 Test_Acc: 0.3887
+
+------------------------------------------------------
+epoch 250/300
+Time taken for Training:  57.1338399999986
+Train_Loss: 0.8350 Train_Acc: 0.7861
+Test_Loss: 4.4848 Test_Acc: 0.3906
+
+------------------------------------------------------
+epoch 251/300
+Time taken for Training:  56.49035500000173
+Train_Loss: 0.9038 Train_Acc: 0.7769
+Test_Loss: 4.2991 Test_Acc: 0.3958
+
+------------------------------------------------------
+epoch 252/300
+Time taken for Training:  56.74218299999848
+Train_Loss: 0.8363 Train_Acc: 0.7769
+Test_Loss: 4.4445 Test_Acc: 0.3971
+
+------------------------------------------------------
+epoch 253/300
+Time taken for Training:  56.67995230000088
+Train_Loss: 0.8784 Train_Acc: 0.7793
+Test_Loss: 4.3689 Test_Acc: 0.3867
+
+------------------------------------------------------
+epoch 254/300
+Time taken for Training:  57.338315099998
+Train_Loss: 0.8622 Train_Acc: 0.7799
+Test_Loss: 4.1443 Test_Acc: 0.3672
+
+------------------------------------------------------
+epoch 255/300
+Time taken for Training:  57.10113129999809
+Train_Loss: 0.8492 Train_Acc: 0.7806
+Test_Loss: 4.4970 Test_Acc: 0.3945
+
+------------------------------------------------------
+epoch 256/300
+Time taken for Training:  57.143707899998844
+Train_Loss: 0.8328 Train_Acc: 0.7877
+Test_Loss: 4.5918 Test_Acc: 0.3600
+
+------------------------------------------------------
+epoch 257/300
+Time taken for Training:  57.00759140000082
+Train_Loss: 0.8332 Train_Acc: 0.7799
+Test_Loss: 4.5985 Test_Acc: 0.3926
+
+------------------------------------------------------
+epoch 258/300
+Time taken for Training:  56.25427500000296
+Train_Loss: 0.8280 Train_Acc: 0.7895
+Test_Loss: 4.5184 Test_Acc: 0.3757
+
+------------------------------------------------------
+epoch 259/300
+Time taken for Training:  56.68700750000062
+Train_Loss: 0.8170 Train_Acc: 0.7917
+Test_Loss: 4.7156 Test_Acc: 0.3867
+
+------------------------------------------------------
+epoch 260/300
+Time taken for Training:  56.34565169999769
+Train_Loss: 0.8542 Train_Acc: 0.7793
+Test_Loss: 4.4072 Test_Acc: 0.3717
+
+------------------------------------------------------
+epoch 261/300
+Time taken for Training:  57.107136000002356
+Train_Loss: 0.8266 Train_Acc: 0.7929
+Test_Loss: 4.3394 Test_Acc: 0.3945
+
+------------------------------------------------------
+epoch 262/300
+Time taken for Training:  58.28959360000226
+Train_Loss: 0.8525 Train_Acc: 0.7901
+Test_Loss: 4.3620 Test_Acc: 0.3887
+
+------------------------------------------------------
+epoch 263/300
+Time taken for Training:  57.428222800001095
+Train_Loss: 0.9016 Train_Acc: 0.7759
+Test_Loss: 4.5964 Test_Acc: 0.3880
+
+------------------------------------------------------
+epoch 264/300
+Time taken for Training:  56.83637400000225
+Train_Loss: 0.8019 Train_Acc: 0.8043
+Test_Loss: 4.7254 Test_Acc: 0.3613
+
+------------------------------------------------------
+epoch 265/300
+Time taken for Training:  56.830610799999704
+Train_Loss: 0.8282 Train_Acc: 0.7889
+Test_Loss: 4.5164 Test_Acc: 0.3893
+
+------------------------------------------------------
+epoch 266/300
+Time taken for Training:  57.01985699999932
+Train_Loss: 0.8277 Train_Acc: 0.7898
+Test_Loss: 4.1841 Test_Acc: 0.3835
+
+------------------------------------------------------
+epoch 267/300
+Time taken for Training:  57.367433499999606
+Train_Loss: 0.8708 Train_Acc: 0.7833
+Test_Loss: 4.4299 Test_Acc: 0.3965
+
+------------------------------------------------------
+epoch 268/300
+Time taken for Training:  57.038096100000985
+Train_Loss: 0.8494 Train_Acc: 0.7858
+Test_Loss: 4.3366 Test_Acc: 0.3822
+
+------------------------------------------------------
+epoch 269/300
+Time taken for Training:  57.48542929999894
+Train_Loss: 0.7988 Train_Acc: 0.7966
+Test_Loss: 4.5656 Test_Acc: 0.3835
+
+------------------------------------------------------
+epoch 270/300
+Time taken for Training:  57.28047789999982
+Train_Loss: 0.8419 Train_Acc: 0.7889
+Test_Loss: 4.3352 Test_Acc: 0.3835
+
+------------------------------------------------------
+epoch 271/300
+Time taken for Training:  57.08357899999828
+Train_Loss: 0.8342 Train_Acc: 0.7932
+Test_Loss: 4.2397 Test_Acc: 0.3978
+
+------------------------------------------------------
+epoch 272/300
+Time taken for Training:  57.244944199999736
+Train_Loss: 0.8888 Train_Acc: 0.7731
+Test_Loss: 4.3185 Test_Acc: 0.3854
+
+------------------------------------------------------
+epoch 273/300
+Time taken for Training:  57.163952699997026
+Train_Loss: 0.8005 Train_Acc: 0.7932
+Test_Loss: 4.2219 Test_Acc: 0.3822
+
+------------------------------------------------------
+epoch 274/300
+Time taken for Training:  57.22920729999896
+Train_Loss: 0.8468 Train_Acc: 0.7870
+Test_Loss: 4.2120 Test_Acc: 0.3828
+
+------------------------------------------------------
+epoch 275/300
+Time taken for Training:  57.1681580000004
+Train_Loss: 0.8614 Train_Acc: 0.7806
+Test_Loss: 4.5524 Test_Acc: 0.3848
+
+------------------------------------------------------
+epoch 276/300
+Time taken for Training:  56.90521029999945
+Train_Loss: 0.8648 Train_Acc: 0.7818
+Test_Loss: 4.3909 Test_Acc: 0.3796
+
+------------------------------------------------------
+epoch 277/300
+Time taken for Training:  57.00049389999913
+Train_Loss: 0.8257 Train_Acc: 0.7907
+Test_Loss: 4.3567 Test_Acc: 0.4017
+
+------------------------------------------------------
+epoch 278/300
+Time taken for Training:  57.962832699999126
+Train_Loss: 0.8489 Train_Acc: 0.7858
+Test_Loss: 4.1235 Test_Acc: 0.3913
+
+------------------------------------------------------
+epoch 279/300
+Time taken for Training:  56.79109249999965
+Train_Loss: 0.7561 Train_Acc: 0.8019
+Test_Loss: 4.4953 Test_Acc: 0.3971
+
+------------------------------------------------------
+epoch 280/300
+Time taken for Training:  57.630473499997606
+Train_Loss: 0.8482 Train_Acc: 0.7914
+Test_Loss: 4.6252 Test_Acc: 0.4030
+
+------------------------------------------------------
+epoch 281/300
+Time taken for Training:  57.37373159999697
+Train_Loss: 0.8826 Train_Acc: 0.7701
+Test_Loss: 4.6086 Test_Acc: 0.3861
+
+------------------------------------------------------
+epoch 282/300
+Time taken for Training:  56.660829399999784
+Train_Loss: 0.8796 Train_Acc: 0.7787
+Test_Loss: 4.4576 Test_Acc: 0.3984
+
+------------------------------------------------------
+epoch 283/300
+Time taken for Training:  56.92503609999767
+Train_Loss: 0.8124 Train_Acc: 0.7957
+Test_Loss: 4.4443 Test_Acc: 0.3802
+
+------------------------------------------------------
+epoch 284/300
+Time taken for Training:  56.7390962999998
+Train_Loss: 0.8741 Train_Acc: 0.7781
+Test_Loss: 4.6367 Test_Acc: 0.3757
+
+------------------------------------------------------
+epoch 285/300
+Time taken for Training:  56.78870689999894
+Train_Loss: 0.7976 Train_Acc: 0.7997
+Test_Loss: 4.4689 Test_Acc: 0.4030
+
+------------------------------------------------------
+epoch 286/300
+Time taken for Training:  57.356472600000416
+Train_Loss: 0.8604 Train_Acc: 0.7880
+Test_Loss: 4.4513 Test_Acc: 0.3783
+
+------------------------------------------------------
+epoch 287/300
+Time taken for Training:  56.727614799998264
+Train_Loss: 0.8612 Train_Acc: 0.7818
+Test_Loss: 4.4693 Test_Acc: 0.3945
+
+------------------------------------------------------
+epoch 288/300
+Time taken for Training:  57.0190442000021
+Train_Loss: 0.8547 Train_Acc: 0.7787
+Test_Loss: 4.6531 Test_Acc: 0.3809
+
+------------------------------------------------------
+epoch 289/300
+Time taken for Training:  57.606951099998696
+Train_Loss: 0.8355 Train_Acc: 0.7778
+Test_Loss: 4.4696 Test_Acc: 0.3900
+
+------------------------------------------------------
+epoch 290/300
+Time taken for Training:  56.857998999999836
+Train_Loss: 0.8372 Train_Acc: 0.7917
+Test_Loss: 4.3964 Test_Acc: 0.4056
+
+------------------------------------------------------
+epoch 291/300
+Time taken for Training:  57.400930799998605
+Train_Loss: 0.8902 Train_Acc: 0.7784
+Test_Loss: 4.5983 Test_Acc: 0.3698
+
+------------------------------------------------------
+epoch 292/300
+Time taken for Training:  57.59241480000128
+Train_Loss: 0.8652 Train_Acc: 0.7821
+Test_Loss: 4.2347 Test_Acc: 0.3848
+
+------------------------------------------------------
+epoch 293/300
+Time taken for Training:  56.920203200003016
+Train_Loss: 0.7961 Train_Acc: 0.7991
+Test_Loss: 4.3825 Test_Acc: 0.3945
+
+------------------------------------------------------
+epoch 294/300
+Time taken for Training:  56.88395010000022
+Train_Loss: 0.7709 Train_Acc: 0.7991
+Test_Loss: 4.6609 Test_Acc: 0.3997
+
+------------------------------------------------------
+epoch 295/300
+Time taken for Training:  57.51007229999959
+Train_Loss: 0.8585 Train_Acc: 0.7778
+Test_Loss: 4.3652 Test_Acc: 0.3939
+
+------------------------------------------------------
+epoch 296/300
+Time taken for Training:  56.26998950000052
+Train_Loss: 0.8378 Train_Acc: 0.7981
+Test_Loss: 4.6539 Test_Acc: 0.3724
+
+------------------------------------------------------
+epoch 297/300
+Time taken for Training:  57.37005230000068
+Train_Loss: 0.8243 Train_Acc: 0.7846
+Test_Loss: 4.4383 Test_Acc: 0.4030
+
+------------------------------------------------------
+epoch 298/300
+Time taken for Training:  57.29107769999973
+Train_Loss: 0.8342 Train_Acc: 0.7864
+Test_Loss: 4.6991 Test_Acc: 0.3555
+
+------------------------------------------------------
+epoch 299/300
+Time taken for Training:  56.78946770000039
+Train_Loss: 0.8444 Train_Acc: 0.7796
+Test_Loss: 4.8921 Test_Acc: 0.3822
+
+------------------------------------------------------
+epoch 300/300
+Time taken for Training:  57.35369359999822
+Train_Loss: 0.8669 Train_Acc: 0.7870
+Test_Loss: 4.2731 Test_Acc: 0.3770
+Finished Training
+Test accuracy:  0.3602320675105485
